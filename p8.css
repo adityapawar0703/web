@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "dragon hunter";
+    color: #E8D8C4;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+}
+.screen {
+    height: 100%;
+    width: 100%;
+    background-color: #561C24;
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    padding-top: 10%;
+
+}
+.screen {
+    height: 100%;
+    width: 100%;
+    background-color: #561C24; 
+     
+    padding-top: 10%;
+
+}
+.screen h1{
+   
+    font-size: 50px;
+  
+}
+button{
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-top: 10%;
+    background-color: #C7B7A3;
+    color: black;
+    border: none;
+}
+button:active{
+    scale: 0.92;
+}
+
+#box{
+   height: 200px;
+   width: 70%;
+    display: flex;
+    transform: translate(25%, 40%);
+    justify-content:space-around
+}
+.elem{
+    height: 200px;
+    width: 200px;
+    border: 2px solid blanchedalmond;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+} 
+.elem img{
+    height: 150px;
+    width: 150xp;
+}
+.elem:hover{
+    background-color: #ddd9d4;
+}
+
+

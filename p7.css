@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#page{
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+}
+
+button{
+    position: absolute;
+ padding: 10px 15px;
+ top: 50%;
+ left: 50%;
+ font-size: 30px;
+}
+img{
+   height: 100px;
+   width: 100px;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+button:active{
+    scale: 0.98;
+}

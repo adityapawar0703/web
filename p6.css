@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+#card{
+    height: 85%;
+    width: 23%;
+    background-color: white;
+    overflow: hidden;
+}
+#storybar{
+    position: relative;
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 8px 4px;
+        white-space: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+       
+       }
+#top{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    padding: 5px 5px;
+     border-bottom: 1px solid green;
+}
+#icon{
+    height: 40px;
+    width: 40%;
+    margin-left: 31.2%;
+    display: flex;
+     padding-top: 5px;
+    gap: 30px;
+    padding-left: 8%;
+}
+#icon i{
+    font-size: 25px;
+}
+.story{
+      display: inline-block;
+     overflow: hidden;
+       align-items: center;
+    margin-left: 2px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: linear-gradient(to right bottom,rgb(16, 16, 197) ,rgb(26, 175, 26), gray);
+    padding: 3px;
+    
+}
+.story img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+
+}
+#storybar::-webkit-scrollbar{
+  display: none;
+}
+#full{
+    height: 105%;
+    width: 100%;
+    background-color: red;
+   position: relative;
+   object-fit: cover;
+   top: -26%;
+   display: none;
+   background-size: cover;
+   
+}
+#full h5{
+    color: white;
+    padding: 25px 85px;
+    font-size: 25px;
+    font-weight: 900;
+   
+}
+#full h6{
+    color: white;
+    padding: 25px 85px;
+    font-size: 20px;
+    font-weight: 100;
+    position: relative;
+    top: -13%;
+    left: 28%;
+   
+}
+#user{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    background-size: cover;
+    position: absolute;
+    margin: 15px 10px;
+}
+
